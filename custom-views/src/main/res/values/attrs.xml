@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Parent styleables -->
+    <declare-styleable name="ParentStyleable">
+
+        <!-- Gradient start and end color -->
+        <attr name="start_color" format="color" />
+        <attr name="end_color" format="color" />
+        <attr name="solid_color" format="color" />
+
+        <!-- stroke / border attrs i.e., width, color, radius -->
+        <attr name="stroke_width" format="dimension" />
+        <attr name="stroke_color" format="color" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="background_circular" format="boolean" />
+
+        <!-- for ripple effect -->
+        <attr name="ripple_color" format="color" />
+
+    </declare-styleable>
+
+    <declare-styleable name="CustomTextView">
+        <attr name="fa_solid" format="boolean" />
+        <attr name="fa_regular" format="boolean" />
+        <attr name="fa_brand" format="boolean" />
+
+        <attr name="solid_color" />
+
+        <attr name="corner_radius" />
+        <attr name="stroke_width" />
+        <attr name="stroke_color" />
+        <attr name="background_circular" />
+
+        <attr name="ripple_color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomButton">
+        <attr name="start_color" />
+        <attr name="end_color" />
+
+        <attr name="corner_radius" />
+        <attr name="stroke_width" />
+        <attr name="stroke_color" />
+
+        <attr name="ripple_color" />
+    </declare-styleable>
+
+    <declare-styleable name="SelectorTextView">
+        <attr name="left_icon" format="string" />
+        <attr name="left_icon_color" format="color" />
+        <attr name="left_icon_dimen" format="dimension" />
+        <attr name="left_icon_is_solid" format="boolean" />
+
+        <attr name="text" format="string" />
+        <attr name="text_color" format="color" />
+        <attr name="text_dimen" format="dimension" />
+
+        <attr name="right_icon" format="string" />
+        <attr name="right_icon_color" format="color" />
+        <attr name="right_icon_dimen" format="dimension" />
+        <attr name="right_icon_is_solid" format="boolean" />
+
+        <attr name="solid_color" />
+
+        <attr name="stroke_width" />
+        <attr name="stroke_color" />
+        <attr name="corner_radius" />
+
+        <attr name="ripple_color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomEditText">
+        <attr name="android:inputType" />
+        <attr name="android:padding" />
+        <attr name="android:paddingLeft" />
+        <attr name="android:paddingRight" />
+        <attr name="android:paddingTop" />
+        <attr name="android:paddingBottom" />
+        <attr name="setBackgroundColor" format="color" />
+        <attr name="setBorderColor" format="color" />
+        <attr name="setBorderView" format="boolean" />
+        <attr name="setFont" format="string" />
+        <attr name="setStrokeWidth" format="dimension" />
+        <attr name="setCornerRadius" format="dimension" />
+        <attr name="setClearIconVisible" format="boolean" />
+        <attr name="clearIconTint" format="color" />
+        <attr name="setCursorColor" format="color" />
+        <attr name="hideShowPasswordIconTint" format="color" />
+        <attr name="setPrefix" format="string" />
+        <attr name="setPrefixTextColor" format="color" />
+    </declare-styleable>
+</resources>
